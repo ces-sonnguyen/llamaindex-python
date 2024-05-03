@@ -16,7 +16,7 @@ from app.observability import init_observability
 app = FastAPI()
 
 init_settings()
-init_observability()
+# init_observability()
 
 environment = os.getenv("ENVIRONMENT", "dev")  # Default to 'development' if not set
 
